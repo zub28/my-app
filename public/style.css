@@ -1,0 +1,94 @@
+.calendar {
+    display: block;
+    background: #FFFFFF;
+    width: 70%;
+    margin: 10px auto;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.month-display{
+
+    margin: 30px;
+}
+.month-label{
+
+    width: 150px;
+}
+.arrow{
+    cursor: pointer;
+    width: 30px;
+    border: 1px solid;
+    margin: 0 10px;
+}
+.row {
+    display: flex;
+    width: 100%;
+}
+.week {
+
+    min-height: 100px;
+}
+.day{
+    border: 1px solid #CCCCCC;
+    flex: 1;
+    min-height: 100%;
+    cursor: pointer;
+    transition: all .2s;
+    position: relative;
+}
+.day_content{
+    height: 100%;
+}
+.day_number{
+    display: block;
+    width: 100%;
+    text-align: left;
+
+}
+.day_event{
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+}
+.different-month {
+    color: #C0C0C0;
+}
+.selected{
+    background: #CCCCCC;
+}
+.form-wrap{
+
+    border: 1px solid;
+    position: absolute;
+    background: #fff;
+    z-index: 5;
+    right: -275px;
+    width: 270px;
+    padding-bottom: 15px;
+    top: 0;
+}
+.form_close{
+
+    text-align: right;
+    margin-right: 10px;
+}
+.form-input{
+
+    width: 80%;
+    height: 20px;
+    margin: 5px;
+}
+.form-textarea{
+    resize: none;
+    width: 80%;
+    margin: 20px 0;
+    height: 80px;
+}
+.form-buttons{
+
+}
+.form-button{
+    margin: 10px;
+
+}
